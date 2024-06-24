@@ -39,7 +39,7 @@ const CounterApp: React.FC = () => {
 
   return (
     <div className="container">
-      <div>{name ? `Hi ${name}` : counter}</div>
+      <div className='value'>{name ? `Hi ${name}` : counter}</div>
       <div>
         <button onClick={toggleCounter}>{running ? 'Stop' : 'Start'}</button>
       </div>
